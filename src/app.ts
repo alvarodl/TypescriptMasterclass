@@ -4,3 +4,4 @@ import { KeyOf } from "./typeQueries/keyOf";
 
 // Mapped Types
 import { Readonly } from "./mappedTypes/readonly";
+import { Partial } from "./mappedTypes/partial";
