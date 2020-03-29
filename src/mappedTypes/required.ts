@@ -2,7 +2,7 @@ export namespace Required {
 
     interface IPerson {
         name: string;
-        age?: number
+        age?: number;
     }
 
     type MyRequired<T> = {
