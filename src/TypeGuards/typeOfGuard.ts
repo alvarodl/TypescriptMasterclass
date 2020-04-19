@@ -16,14 +16,14 @@ export namespace TypeOfGuard {
        return `${minutes}:${seconds}`;
    }
 
-   const sondDurationFromString = getSongDuration(
+   const songDurationFromString = getSongDuration(
         new Song('Wonderful Wonderful', '05:31')
    );
 
-   const sondDurationFromNumber = getSongDuration(
+   const songDurationFromNumber = getSongDuration(
     new Song('Wonderful Wonderful', 185)
     );
 
-    console.log(sondDurationFromString);
-    console.log(sondDurationFromNumber);
+    console.log(songDurationFromString);
+    console.log(songDurationFromNumber);
 }

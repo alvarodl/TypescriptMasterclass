@@ -11,3 +11,4 @@ import { Record } from "./mappedTypes/record";
 
 //Type Guards
 import { TypeOfGuard } from "./TypeGuards/typeOfGuard";
+import { InstanceOfGuard } from "./TypeGuards/instanceOfGuard";
